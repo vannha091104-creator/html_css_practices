@@ -796,16 +796,19 @@ body {
 }
 
 .bs-left {
-    width: 240px;
-    border-radius: 22px;
-    padding: 24px;
+    width: 280px;
+    min-height: 540px;
 
-    background: rgba(255, 255, 255, 0.75);
+    border-radius: 28px;
+    padding: 34px 24px;
+
+    background: rgba(255, 255, 255, 0.82);
 
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.5);
 
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.9);
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
 
     display: flex;
     flex-direction: column;
@@ -814,49 +817,58 @@ body {
 
 .bs-menu {
     list-style: none;
+
     display: flex;
     flex-direction: column;
-    gap: 14px;
+
+    gap: 16px;
 }
 
 .bs-menu li {
-    font-size: 14px;
-    color: #444;
-    cursor: pointer;
-    padding: 10px 14px;
-    border-radius: 999px;
-    transition: 0.2s;
-}
-
-.bs-menu li:hover {
-    color: #111;
-}
-
-.bs-menu li.active {
-    background: #3f4b53;
-    color: #fff;
+    width: 100%;
+    height: 44px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    padding: 0 16px;
+
+    border-radius: 999px;
+
+    font-size: 15px;
+    font-weight: 500;
+    color: #2d2d2d;
+
+    white-space: nowrap;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
 }
 
-.bs-menu li.active span {
-    color: #d9ff57;
-}
+.bs-menu li span {
+    opacity: 0;
 
-.bs-menu li.active span {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    transition: all 0.3s ease;
 }
 
-.bs-menu li.active span img {
+.bs-menu li span img {
     width: 14px;
     height: 14px;
-    object-fit: contain;
+}
 
-    display: block;
+.bs-menu li:hover {
+    background: #3f4b53;
+    color: #fff;
+}
+
+.bs-menu li:hover span {
+    opacity: 1;
 }
 
 .view-more {
@@ -867,11 +879,26 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 8px;
+
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
+
 
 .view-more img {
     width: 7px;
     opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.view-more:hover {
+    color: #d8f04b;
+    transform: translateX(4px);
+}
+
+.view-more:hover img {
+    transform: translateX(4px);
+    opacity: 1;
 }
 
 .bs-right {
