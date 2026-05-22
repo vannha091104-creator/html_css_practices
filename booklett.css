@@ -1212,7 +1212,6 @@ body {
     min-height: 680px;
 }
 
-
 .why-left {
     width: 50%;
     min-height: 680px;
@@ -1235,13 +1234,11 @@ body {
 }
 
 .books-collage .show-book:nth-child(4) {
-    grid-column: 2;
     grid-row: 1;
     margin-top: 80px;
 }
 
 .books-collage .show-book:nth-child(5) {
-    grid-column: 2;
     grid-row: 2;
     margin-top: 0;
 }
@@ -1274,7 +1271,6 @@ body {
     border-radius: 16px;
     box-shadow: 0 14px 30px rgba(0, 0, 0, 0.22);
 }
-
 
 .show-info {
     margin-top: 9px;
@@ -1309,7 +1305,6 @@ body {
     font-weight: 700;
     color: #111;
 }
-
 
 .why-right {
     width: 50%;
@@ -1362,7 +1357,6 @@ body {
     box-shadow: 0 12px 24px rgba(63, 75, 83, 0.28);
     color: #d8f04b;
 }
-
 
 /* ==========NEWS LETTER========== */
 
