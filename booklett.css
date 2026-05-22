@@ -1046,6 +1046,11 @@ body {
     transform: scale(0.96);
 }
 /* ===== DEAL OF THE DAY ===== */
+.deal-day {
+    width: 100%;
+    padding: 60px 40px;
+}
+
 .deal-box {
     width: 100%;
 }
@@ -1084,30 +1089,28 @@ body {
 .deal-card {
     width: 100%;
     min-height: 270px;
-
     display: flex;
     align-items: center;
     gap: 28px;
-
     padding: 24px;
-
     border-radius: 24px;
     background: #f5f5f2;
-
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.03);
-
     transition: all 0.3s ease;
+}
+
+.deal-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.08);
+    background: #ffffff;
 }
 
 .deal-img {
     width: 130px;
     height: 190px;
-
     flex-shrink: 0;
-
     position: relative;
     overflow: hidden;
-
     border-radius: 14px;
 }
 
@@ -1122,23 +1125,18 @@ body {
     position: absolute;
     top: 5px;
     right: 5px;
-
     width: 25px;
     height: 25px;
-
     background: #fff;
     border-radius: 50%;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     z-index: 5;
 }
 
 .deal-info {
     flex: 1;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1197,19 +1195,6 @@ body {
     font-size: 13px;
     margin-top: 12px;
 }
-
-.deal-card {
-    transition: all 0.3s ease;
-}
-
-.deal-card:hover {
-    transform: translateY(-10px);
-
-    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.08);
-
-    background: #ffffff;
-}
-
 
 /* ===== WHY SHOP WITH US ===== */
 
