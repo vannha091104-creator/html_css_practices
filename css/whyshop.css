@@ -1,0 +1,161 @@
+/* ===== WHY SHOP WITH US ===== */
+
+.why-shop {
+    width: 100%;
+    background: #d8f04b;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.why-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 680px;
+}
+
+.why-left {
+    width: 50%;
+    min-height: 680px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.books-collage {
+    position: absolute;
+    top: -150px;
+    left: 40px;
+    width: 620px;
+    display: grid;
+    grid-template-columns: 160px 160px 160px;
+    grid-template-rows: auto auto auto;
+    gap: 28px 24px;
+    transform: rotate(15deg);
+    transform-origin: center center;
+}
+
+.books-collage .show-book:nth-child(4) {
+    grid-row: 1;
+    margin-top: 80px;
+}
+
+.books-collage .show-book:nth-child(5) {
+    grid-row: 2;
+    margin-top: 0;
+}
+
+.books-collage .show-book:nth-child(4),
+.books-collage .show-book:nth-child(5) {
+    grid-column: 2;
+}
+
+.show-book {
+    width: 160px;
+    transition: transform 0.3s ease;
+}
+
+.show-book:hover {
+    transform: scale(1.04);
+    z-index: 10;
+}
+
+.show-cover {
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.show-cover img {
+    width: 100%;
+    display: block;
+    border-radius: 16px;
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.22);
+}
+
+.show-info {
+    margin-top: 9px;
+    padding-left: 3px;
+}
+
+.show-author {
+    font-size: 10px;
+    color: #6b7a2e;
+    margin-bottom: 2px;
+}
+
+.show-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 3px;
+    line-height: 1.3;
+}
+
+.old-price {
+    display: block;
+    font-size: 10px;
+    color: #8a9640;
+    text-decoration: line-through;
+    margin-bottom: 2px;
+}
+
+.new-price {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    color: #111;
+}
+
+.why-right {
+    width: 50%;
+    padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.why-right h2 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.05;
+    color: #111;
+    margin-bottom: 22px;
+    letter-spacing: -1px;
+    white-space: nowrap;
+}
+
+.why-right p {
+    font-size: 15px;
+    line-height: 1.85;
+    font-weight: 500;
+    color: #435058;
+    max-width: 480px;
+    margin-bottom: 34px;
+    text-align: center;
+}
+
+.why-btn {
+    width: fit-content;
+    height: 54px;
+    padding: 0 38px;
+    border: none;
+    border-radius: 999px;
+    background: #3f4b53;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+.why-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px rgba(63, 75, 83, 0.28);
+    color: #d8f04b;
+}

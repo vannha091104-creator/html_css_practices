@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+:root {
+    --primary-dark: #3f4b53;
+    --primary-light: #d8f04b;
+    --text-dark: #111;
+    --text-gray: #777;
+    --white: #fff;
+    --radius-pill: 999px;
+    --transition: all 0.3s ease;
+}
+
+body {
+    background-color: #fcfcf8;
+    background-image: url("../img/backgr.png");
+    background-repeat: no-repeat;
+    background-position: center -120px;
+    background-size: 100% auto;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-padding {
+    width: 100%;
+    padding: 60px 40px;
+}
