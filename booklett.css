@@ -273,6 +273,7 @@ body {
     font-size: 15px;
     font-weight: 600;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .btn-more {
@@ -289,11 +290,6 @@ body {
     display: flex;
     gap: 8px;
     box-shadow: 0 10px 20px rgba(217, 255, 87, 0.4);
-}
-
-.btn-more,
-.btn-buynow {
-    transition: all 0.3s ease;
 }
 
 .btn-more:hover {
@@ -314,8 +310,6 @@ body {
 .btn-buynow:active {
     transform: scale(0.96);
 }
-
-
 
 /* ===== SEARCH SECTION ===== */
 .search-section {
