@@ -575,6 +575,34 @@ body {
     gap: 18px;
 }
 
+.book-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+.book-card:hover {
+    transform: translateY(-10px);
+}
+
+.book-img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+}
+
+.book-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 .wishlist {
     position: absolute;
@@ -596,17 +624,6 @@ body {
     transition: all 0.3s ease;
 }
 
-.book-card {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    transition: all 0.3s ease;
-}
-
-.book-card:hover {
-    transform: translateY(-10px);
-}
-
 .book-card .wishlist {
     transition: all 0.3s ease;
 }
@@ -616,23 +633,6 @@ body {
     border-color: #3f4b53;
 }
 
-.book-img {
-    width: 100%;
-    aspect-ratio: 3/4;
-    border-radius: 16px;
-    overflow: hidden;
-    position: relative;
-}
-
-.book-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 16px;
-    width: 100%;
-    height: auto;
-    display: block;
-}
 
 .review {
     margin-top: 8px;
@@ -648,7 +648,6 @@ body {
     border: 1.5px solid #7ea11f;
     border-radius: 999px;
     background: #d8ef6a;
-
     display: flex;
     align-items: center;
     gap: 6px;
@@ -678,6 +677,11 @@ body {
     color: #111;
 }
 
+.author {
+    font-size: 11px;
+    color: #777;
+    margin-top: 6px;
+}
 
 .price {
     display: flex;
@@ -738,7 +742,6 @@ body {
 .add-cart:active {
     transform: scale(0.96);
 }
-
 
 /* ===== BEST SELLING ===== */
 .bs-box {
