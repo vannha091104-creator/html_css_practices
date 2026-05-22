@@ -40,7 +40,7 @@ body {
     padding: 60px 40px;
 }
 
-/* ===== 2. TOP BANNER ===== */
+/* ===== TOP BANNER ===== */
 
 .top-banner {
     background: #3f4b53;
@@ -67,7 +67,7 @@ body {
     margin-left: 4px;
 }
 
-/* ===== 3. HEADER ===== */
+/* ===== HEADER ===== */
 .header {
     width: 100%;
     display: flex;
@@ -446,10 +446,7 @@ body {
     margin-top: 60px;
 }
 
-.category-header,
-.na-header,
-.bs-header,
-.deal-header {
+.category-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -544,9 +541,7 @@ body {
 }
 
 /* ===== NEW ARRIVALS ===== */
-.new-arrivals,
-.best-selling,
-.deal-day {
+.new-arrivals {
     width: 100%;
     padding: 60px 40px;
 }
