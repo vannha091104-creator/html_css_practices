@@ -329,7 +329,6 @@ body {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
 }
 
-/* SEARCH BAR */
 .search-bar {
     width: 65%;
     height: 60px;
@@ -343,17 +342,17 @@ body {
     border: 2px solid #d9f3e8;
 }
 
-.search-input img {
-    width: 20px;
-    opacity: 0.7;
-}
-
 .search-input {
     display: flex;
     align-items: center;
     gap: 12px;
     padding-left: 18px;
     flex: 1;
+}
+
+.search-input img {
+    width: 20px;
+    opacity: 0.7;
 }
 
 .search-input input {
@@ -376,9 +375,6 @@ body {
     font-weight: 600;
     font-size: 15px;
     cursor: pointer;
-}
-
-.search-btn {
     transition: all 0.3s ease;
 }
 
@@ -392,7 +388,6 @@ body {
     transform: scale(0.96);
 }
 
-/* BOOK LIST */
 .book-list {
     display: flex;
     justify-content: center;
