@@ -1,0 +1,30 @@
+/* ===== NEW ARRIVALS ===== */
+.new-arrivals {
+    width: 100%;
+    padding: 60px 40px;
+}
+
+.na-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.na-header h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111;
+}
+
+.na-nav {
+    display: flex;
+    gap: 12px;
+}
+
+.na-list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 18px;
+}
+

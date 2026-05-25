@@ -1,0 +1,150 @@
+/* ===== DEAL OF THE DAY ===== */
+.deal-day {
+    width: 100%;
+    padding: 60px 40px;
+}
+
+.deal-box {
+    width: 100%;
+}
+
+.deal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.deal-header h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111;
+}
+
+.deal-header .time {
+    color: #ff6b00;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.deal-nav {
+    display: flex;
+    gap: 12px;
+}
+
+.deal-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 25px;
+}
+
+.deal-card {
+    width: 100%;
+    min-height: 270px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    padding: 24px;
+    border-radius: 24px;
+    background: #f5f5f2;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.03);
+    transition: all 0.3s ease;
+}
+
+.deal-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.08);
+    background: #ffffff;
+}
+
+.deal-img {
+    width: 130px;
+    height: 190px;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 14px;
+}
+
+.deal-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.deal-card .wishlist {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+
+.deal-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.deal-info .old {
+    font-size: 11px;
+    text-decoration: line-through;
+    color: #b5b5b5;
+}
+
+.deal-info .author {
+    font-size: 11px;
+    color: #777;
+}
+
+.deal-info .title {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 2px 0;
+}
+
+.deal-info .price {
+    font-weight: 700;
+    font-size: 13px;
+    margin: 2px 0;
+}
+
+.deal-info .rating img {
+    width: 110px;
+}
+
+.sold {
+    font-size: 11px;
+    color: #666;
+}
+
+.progress {
+    width: 100%;
+    height: 6px;
+    background: #ddd;
+    border-radius: 999px;
+    margin: 5px 0 8px;
+}
+
+.progress span {
+    display: block;
+    height: 100%;
+    background: #cfe84a;
+    border-radius: 999px;
+}
+
+.deal-card .add-cart {
+    width: 100%;
+    height: 40px;
+    font-size: 13px;
+    margin-top: 12px;
+}
