@@ -5,6 +5,11 @@
     margin-top: 60px;
 }
 
+.category-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 .category-header {
     display: flex;
     justify-content: space-between;
