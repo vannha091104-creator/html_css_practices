@@ -5,6 +5,8 @@
 }
 
 .bs-box {
+    max-width: 1280px;    
+    margin: 0 auto;
     width: 100%;
     border-radius: 30px;
     padding: 45px 60px;
@@ -18,8 +20,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1150px;
-    margin: 0 auto 30px;
 }
 
 .bs-header h2 {
@@ -36,8 +36,6 @@
 .bs-container {
     display: flex;
     gap: 35px;
-    max-width: 1150px;
-    margin: 0 auto;
 }
 
 .bs-left {
