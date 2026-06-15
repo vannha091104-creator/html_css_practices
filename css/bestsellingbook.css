@@ -131,3 +131,55 @@
     gap: 20px;
 }
 
+@media (max-width: 768px) {
+
+  .best-selling {
+    padding: 30px 16px;
+  }
+
+  .bs-box {
+    padding: 20px 16px;
+    border-radius: 20px;
+  }
+
+  .bs-header {
+    margin-bottom: 14px;
+  }
+
+  .bs-header h2 {
+    font-size: 18px;
+  }
+
+  .bs-nav {
+    gap: 8px;
+  }
+
+  .bs-left {
+    display: none;
+  }
+
+  .bs-container {
+    gap: 0;
+  }
+
+  .bs-right {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-template-columns: unset;
+    overflow-x: auto;
+    gap: 12px;
+    padding-bottom: 8px;
+    scrollbar-width: none;
+  }
+
+  .bs-right::-webkit-scrollbar {
+    display: none;
+  }
+
+  .bs-right .book-card {
+    flex-shrink: 0;
+    width: 160px;
+  }
+}
