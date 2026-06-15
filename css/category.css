@@ -89,16 +89,6 @@
     gap: 8px;
   }
 
-  .arrow {
-    width: 32px;
-    height: 32px;
-}
-
-.arrow img {
-    width: 14px;
-    height: 14px;
-}
-
   .category-list {
     display: flex;
     flex-direction: row;
