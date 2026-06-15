@@ -32,3 +32,15 @@
 .arrow:active {
     transform: scale(0.94);
 }
+
+@media (max-width: 768px) {
+  .arrow {
+    width: 32px;
+    height: 32px;
+  }
+
+  .arrow img {
+    width: 14px;
+    height: 14px;
+  }
+}
