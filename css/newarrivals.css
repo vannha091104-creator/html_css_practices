@@ -33,3 +33,47 @@
     gap: 18px;
 }
 
+@media (max-width: 768px) {
+
+  .new-arrivals {
+    padding: 30px 16px;
+  }
+
+  .new-arrivals-inner {
+    max-width: 100%;
+  }
+
+  .na-header {
+    margin-bottom: 14px;
+  }
+
+  .na-header h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+  }
+
+  .na-nav {
+    gap: 8px;
+  }
+
+  .na-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-template-columns: unset;
+    overflow-x: auto;
+    gap: 12px;
+    padding-bottom: 8px;
+    scrollbar-width: none;
+  }
+
+  .na-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .book-card {
+    flex-shrink: 0;
+    width: 150px;
+  }
+}
