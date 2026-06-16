@@ -160,3 +160,43 @@
     box-shadow: 0 12px 24px rgba(63, 75, 83, 0.28);
     color: #d8f04b;
 }
+
+@media (max-width: 768px) {
+  .why-shop {
+    margin-top: 30px;
+    padding: 0 16px;
+  }
+
+  .why-container {
+    flex-direction: column;
+    min-height: unset;
+  }
+
+  .why-left {
+    display: none;
+  }
+
+  .why-right {
+    width: 100%;
+    padding: 40px 24px;
+  }
+
+  .why-right h2 {
+    font-size: 28px;
+    white-space: normal;
+    margin-bottom: 16px;
+    letter-spacing: 0;
+  }
+
+  .why-right p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 24px;
+  }
+
+  .why-btn {
+    height: 48px;
+    padding: 0 30px;
+    font-size: 14px;
+  }
+}
