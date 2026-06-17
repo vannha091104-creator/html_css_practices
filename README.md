@@ -60,11 +60,11 @@ This document provides information about HTML/CSS Practice 2.
 | June 4, 2026 | Setup project | 1 | 1 | | |
 | June 5, 2026 | Header section | 2 | 3 | | |
 | June 5, 2026 | Shop by Category section | 2 | 2 | | |
-| June 15, 2026 | New Arrivals section | 2 | - | | |
-| June 15, 2026 | Best Selling Books section | 2 | - | | |
-| June 16, 2026 | Deal of the Day section | 2 | - | | |
-| June 16, 2026 | "Why Shop with Us?" section | 2 | - | | |
-| June 17, 2026 | Join News Letter section | 2 | - | | |
-| June 17, 2026 | Footer section | 2 | - | | |
+| June 15, 2026 | New Arrivals section | 2 | 2 | | |
+| June 15, 2026 | Best Selling Books section | 2 | 2 | | |
+| June 16, 2026 | Deal of the Day section | 2 | 2 | | |
+| June 16, 2026 | "Why Shop with Us?" section | 2 | 2 | | |
+| June 17, 2026 | Join News Letter section | 2 | 2 | | |
+| June 17, 2026 | Footer section | 2 | 2 | | |
 | June 18, 2026 | Edit and finalize the website (Test) | 3 | - | | |
 | June 18, 2026 | Get feedback from the mentor and supporter | 1 | - | | |
