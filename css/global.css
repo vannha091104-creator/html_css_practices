@@ -39,3 +39,9 @@ body {
     width: 100%;
     padding: 60px 40px;
 }
+
+@media (max-width: 767px) {
+    .section-padding {
+        padding: 40px 16px;
+    }
+}
