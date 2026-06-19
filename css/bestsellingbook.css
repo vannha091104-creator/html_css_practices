@@ -131,6 +131,87 @@
     gap: 20px;
 }
 
+/* ===== TABLET ===== */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .best-selling {
+    padding: 40px 24px;
+    box-sizing: border-box;
+    width: 100%;            
+    overflow: hidden; 
+  }
+
+  .bs-box {
+    padding: 30px 28px;
+    border-radius: 24px;
+    margin: 0 auto;
+    max-width: 100%;        
+    box-sizing: border-box; 
+  }
+
+  .bs-header {
+    margin-bottom: 16px;
+  }
+
+  .bs-header h2 {
+    font-size: 22px;
+  }
+
+  .bs-nav {
+    gap: 10px;
+  }
+
+  .bs-container {
+    gap: 20px;
+  }
+
+  .bs-left {
+    width: 200px;
+    min-height: unset;
+    padding: 20px 14px;
+    border-radius: 20px;
+    flex-shrink: 0;
+  }
+
+  .bs-menu {
+    gap: 10px;
+  }
+
+  .bs-menu li {
+    height: 38px;
+    font-size: 13px;
+    padding: 0 12px;
+  }
+
+  .view-more {
+    font-size: 12px;
+    margin-top: 14px;
+  }
+
+  .bs-right {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-template-columns: unset;
+    overflow-x: auto;
+    gap: 14px;
+    padding-bottom: 8px;
+    scrollbar-width: none;
+  }
+
+  .bs-right::-webkit-scrollbar {
+    display: none;
+  }
+
+  .bs-right .book-card {
+    flex-shrink: 0;
+    width: 200px;
+  }
+}
+
+/* ===== MOBILE ===== */
 @media (max-width: 768px) {
 
   .best-selling {
