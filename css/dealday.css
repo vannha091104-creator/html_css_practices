@@ -151,6 +151,123 @@
     margin-top: 12px;
 }
 
+/* ===== TABLET ===== */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .deal-day {
+    padding: 40px 24px;
+  }
+
+  .deal-header h2 {
+    font-size: 20px;
+  }
+
+  .deal-header .time {
+    font-size: 14px;
+  }
+
+  .deal-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-template-columns: unset;
+    overflow-x: auto;
+    gap: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    scrollbar-width: none;
+  }
+
+  .deal-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .deal-card {
+    flex-shrink: 0;
+    width: 300px;
+    min-height: unset;
+    padding: 18px;
+    gap: 18px;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .deal-img {
+    width: 110px;
+    height: auto;
+    flex-shrink: 0;
+  }
+
+  .deal-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .deal-info {
+    flex: 1;
+    justify-content: space-between;
+  }
+
+  .deal-info .author {
+    font-size: 11px;
+  }
+
+  .deal-info .title {
+    font-size: 12px;
+    margin: 3px 0;
+  }
+
+  .deal-info .old {
+    font-size: 11px;
+  }
+
+  .deal-info .price {
+    font-size: 12px;
+    margin: 3px 0;
+  }
+
+  .deal-info .review {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 3px 0;
+  }
+
+  .deal-info .rating-box {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 7px;
+  }
+
+  .deal-info .rating-box img {
+    width: 11px;
+    height: 11px;
+  }
+
+  .deal-info .rating-box span {
+    font-size: 11px;
+  }
+
+  .deal-info .review-count {
+    font-size: 11px;
+    color: #888;
+  }
+
+  .sold {
+    font-size: 11px;
+  }
+
+  .deal-card .add-cart {
+    width: 100%;
+    height: 38px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
+
+/* ===== MOBILE ===== */
 @media (max-width: 768px) {
 
   .deal-day {
