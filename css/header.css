@@ -405,9 +405,8 @@
 
 /* ===== TABLET ===== */
 @media (min-width: 769px) and (max-width: 1024px) {
-   .top-banner,
-  .nav,
-  .signin {
+  .top-banner,
+  .nav {
     display: none;
   }
 
@@ -424,6 +423,20 @@
   .actions {
     gap: 2px;
     align-items: center;
+  }
+
+  .signin {
+    display: flex;
+    height: 36px;
+    font-size: 13px;
+    padding: 0 14px;
+    gap: 6px;
+    white-space: nowrap;
+  }
+
+  .signin svg {
+    width: 15px;
+    height: 18px;
   }
 
   .icon-btn {
