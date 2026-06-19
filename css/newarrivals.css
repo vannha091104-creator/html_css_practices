@@ -1,38 +1,81 @@
 /* ===== NEW ARRIVALS ===== */
 .new-arrivals {
-    width: 100%;
-    padding: 60px 40px;
+  width: 100%;
+  padding: 60px 40px;
 }
 
 .new-arrivals-inner {
-    max-width: 1280px;
-    margin: 0 auto;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .na-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .na-header h2 {
-    font-size: 24px;
-    font-weight: 700;
-    color: #111;
+  font-size: 24px;
+  font-weight: 700;
+  color: #111;
 }
 
 .na-nav {
-    display: flex;
-    gap: 12px;
+  display: flex;
+  gap: 12px;
 }
 
 .na-list {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 18px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 18px;
 }
 
+/* ===== TABLET ===== */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .new-arrivals {
+    padding: 40px 30px;
+  }
+
+  .new-arrivals-inner {
+    max-width: 100%;
+  }
+
+  .na-header {
+    margin-bottom: 16px;
+  }
+
+  .na-header h2 {
+    font-size: 22px;
+  }
+
+  .na-nav {
+    gap: 10px;
+  }
+
+  .na-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 14px;
+    padding-bottom: 8px;
+    scrollbar-width: none;
+  }
+
+  .na-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .na-list .book-card {
+    flex-shrink: 0;
+    width: 200px;
+  }
+}
+
+/* ===== MOBILE ===== */
 @media (max-width: 768px) {
 
   .new-arrivals {
