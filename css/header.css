@@ -403,6 +403,86 @@
   display: none;
 }
 
+/* ===== TABLET ===== */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header {
+    padding: 12px 24px;
+  }
+
+  .logo span {
+    font-size: 26px;
+  }
+
+  .logo img {
+    width: 26px;
+  }
+
+  .nav a {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+
+  .actions {
+    gap: 8px;
+  }
+
+  .icon-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon-btn img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .signin {
+    font-size: 14px;
+    padding: 0 14px;
+  }
+
+  .hero-container {
+    gap: 60px;
+    margin-top: -20px;
+  }
+
+  .hero-left {
+    min-height: 420px;
+  }
+
+  .hero-left .girl {
+    width: 260px;
+  }
+
+  .hero-left .clivebook {
+    width: 150px;
+    top: 100px;
+  }
+
+  .hero-right h1 {
+    font-size: 55px;
+  }
+
+  .hero-right p {
+    font-size: 16px;
+  }
+
+  .search-container {
+    padding: 30px 30px;
+  }
+
+  .search-bar {
+    width: 80%;
+    height: 55px;
+  }
+
+  .book-item {
+    width: 90px;
+    height: 120px;
+  }
+}
+
+/* ===== MOBILE ===== */
 @media (max-width: 768px) {
   html {
     overflow-x: hidden;
