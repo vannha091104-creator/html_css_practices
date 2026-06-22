@@ -40,7 +40,25 @@ body {
     padding: 60px 40px;
 }
 
-@media (max-width: 767px) {
+/* ===== TABLET ===== */
+@media (min-width: 769px) and (max-width: 1024px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+        margin: 0 auto;
+    }
+
+    body {
+        max-width: 100%;
+    }
+
+    .section-padding {
+        padding: 50px 30px;
+    }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
     .section-padding {
         padding: 40px 16px;
     }
