@@ -404,7 +404,7 @@
 }
 
 /* ===== TABLET ===== */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 48.0625em) and (max-width: 64em) {
   .top-banner,
   .nav {
     display: none;
@@ -554,7 +554,7 @@
 }
 
 /* ===== MOBILE ===== */
-@media (max-width: 768px) {
+@media (max-width: 48em) {
   html {
     overflow-x: hidden;
   }
