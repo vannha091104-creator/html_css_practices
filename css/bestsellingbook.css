@@ -1,15 +1,15 @@
 /* ===== BEST SELLING BOOKS ===== */
 .best-selling {
     width: 100%;
-    padding: 60px 40px;
+    padding: 3.75rem 2.5rem;          
 }
 
 .bs-box {
-    max-width: 1280px;    
+    max-width: 80rem;                 
     margin: 0 auto;
     width: 100%;
-    border-radius: 30px;
-    padding: 45px 60px;
+    border-radius: 30px;              
+    padding: 2.8125rem 3.75rem;       
     background: rgba(255, 255, 255, 0.28);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.18);
@@ -23,26 +23,26 @@
 }
 
 .bs-header h2 {
-    font-size: 26px;
+    font-size: 1.625rem;             
     font-weight: 700;
     color: #111;
 }
 
 .bs-nav {
     display: flex;
-    gap: 12px;
+    gap: 0.75rem;                    
 }
 
 .bs-container {
     display: flex;
-    gap: 35px;
+    gap: 2.1875rem;                  
 }
 
 .bs-left {
-    width: 280px;
-    min-height: 540px;
-    border-radius: 28px;
-    padding: 34px 24px;
+    width: 17.5rem;                   
+    min-height: 33.75rem;          
+    border-radius: 28px;            
+    padding: 2.125rem 1.5rem;         
     background: rgba(255, 255, 255, 0.82);
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255, 255, 255, 0.9);
@@ -56,18 +56,18 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1rem;                       
 }
 
 .bs-menu li {
     width: 100%;
-    height: 44px;
+    height: 2.75rem;                  
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 16px;
-    border-radius: 999px;
-    font-size: 15px;
+    padding: 0 1em;                   
+    border-radius: 999px;             
+    font-size: 0.9375rem;             
     font-weight: 500;
     color: #2d2d2d;
     white-space: nowrap;
@@ -84,8 +84,8 @@
 }
 
 .bs-menu li span img {
-    width: 14px;
-    height: 14px;
+    width: 0.875rem;                  
+    height: 0.875rem;
 }
 
 .bs-menu li:hover {
@@ -98,29 +98,29 @@
 }
 
 .view-more {
-    margin-top: 20px;
-    font-size: 13px;
+    margin-top: 1.25rem;              
+    font-size: 0.8125rem;             
     color: #555;
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.5em;                       
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .view-more img {
-    width: 7px;
+    width: 0.4375rem;            
     opacity: 0.8;
     transition: all 0.3s ease;
 }
 
 .view-more:hover {
     color: #d8f04b;
-    transform: translateX(4px);
+    transform: translateX(4px);    
 }
 
 .view-more:hover img {
-    transform: translateX(4px);
+    transform: translateX(4px);      
     opacity: 1;
 }
 
@@ -128,64 +128,64 @@
     flex: 1;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 1.25rem;                     
 }
 
 /* ===== TABLET ===== */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 48.0625em) and (max-width: 64em) {
 
   .best-selling {
-    padding: 40px 24px;
+    padding: 2.5rem 1.5rem;           
     box-sizing: border-box;
-    width: 100%;            
-    overflow: hidden; 
+    width: 100%;
+    overflow: hidden;
   }
 
   .bs-box {
-    padding: 30px 28px;
-    border-radius: 24px;
+    padding: 1.875rem 1.75rem;       
+    border-radius: 24px;            
     margin: 0 auto;
-    max-width: 100%;        
-    box-sizing: border-box; 
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   .bs-header {
-    margin-bottom: 16px;
+    margin-bottom: 1rem;           
   }
 
   .bs-header h2 {
-    font-size: 22px;
+    font-size: 1.375rem;             
   }
 
   .bs-nav {
-    gap: 10px;
+    gap: 0.625rem;                  
   }
 
   .bs-container {
-    gap: 20px;
+    gap: 1.25rem;                   
   }
 
   .bs-left {
-    width: 200px;
+    width: 12.5rem;                 
     min-height: unset;
-    padding: 20px 14px;
-    border-radius: 20px;
+    padding: 1.25rem 0.875rem;       
+    border-radius: 20px;              
     flex-shrink: 0;
   }
 
   .bs-menu {
-    gap: 10px;
+    gap: 0.625rem;                  
   }
 
   .bs-menu li {
-    height: 38px;
-    font-size: 13px;
-    padding: 0 12px;
+    height: 2.375rem;                 
+    font-size: 0.8125rem;            
+    padding: 0 0.923em;              
   }
 
   .view-more {
-    font-size: 12px;
-    margin-top: 14px;
+    font-size: 0.75rem;               
+    margin-top: 0.875rem;            
   }
 
   .bs-right {
@@ -196,8 +196,8 @@
     flex-wrap: nowrap;
     grid-template-columns: unset;
     overflow-x: auto;
-    gap: 14px;
-    padding-bottom: 8px;
+    gap: 0.875rem;                    
+    padding-bottom: 0.5rem;           
     scrollbar-width: none;
   }
 
@@ -207,32 +207,32 @@
 
   .bs-right .book-card {
     flex-shrink: 0;
-    width: 200px;
+    width: 12.5rem;                
   }
 }
 
 /* ===== MOBILE ===== */
-@media (max-width: 768px) {
+@media (max-width: 48em) {
 
   .best-selling {
-    padding: 30px 16px;
+    padding: 1.875rem 1rem;         
   }
 
   .bs-box {
-    padding: 20px 16px;
-    border-radius: 20px;
+    padding: 1.25rem 1rem;         
+    border-radius: 20px;             
   }
 
   .bs-header {
-    margin-bottom: 14px;
+    margin-bottom: 0.875rem;          
   }
 
   .bs-header h2 {
-    font-size: 18px;
+    font-size: 1.125rem;             
   }
 
   .bs-nav {
-    gap: 8px;
+    gap: 0.5rem;                   
   }
 
   .bs-left {
@@ -250,8 +250,8 @@
     flex-wrap: nowrap;
     grid-template-columns: unset;
     overflow-x: auto;
-    gap: 12px;
-    padding-bottom: 8px;
+    gap: 0.75rem;                   
+    padding-bottom: 0.5rem;           
     scrollbar-width: none;
   }
 
@@ -261,6 +261,6 @@
 
   .bs-right .book-card {
     flex-shrink: 0;
-    width: 160px;
+    width: 10rem;                    
   }
 }
