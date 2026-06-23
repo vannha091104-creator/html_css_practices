@@ -12,7 +12,7 @@
 .book-img {
     width: 100%;
     aspect-ratio: 3/4;
-    border-radius: 16px;
+    border-radius: 16px;             
     overflow: hidden;
     position: relative;
 }
@@ -21,16 +21,16 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 16px;
+    border-radius: 16px;              
     display: block;
 }
 
 .wishlist {
     position: absolute;
-    top: 8px;
+    top: 8px;                         
     right: 10px;
-    width: 26px;
-    height: 26px;
+    width: 1.625rem;                  
+    height: 1.625rem;
     background: #fff;
     border-radius: 50%;
     display: flex;
@@ -41,8 +41,8 @@
 }
 
 .wishlist img {
-    width: 14px;
-    height: 14px;
+    width: 0.875rem;                 
+    height: 0.875rem;
     transition: all 0.3s ease;
 }
 
@@ -52,59 +52,59 @@
 }
 
 .review {
-    margin-top: 8px;
+    margin-top: 0.5rem;               
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 12px;
+    gap: 0.75rem;                     
 }
 
 .rating-box {
-    height: 32px;
-    padding: 0 12px;
+    height: 2rem;                     
+    padding: 0 0.75em;                
     border: 1.5px solid #7ea11f;
     border-radius: 999px;
     background: #d8ef6a;
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 0.375em;                     
 }
 
 .rating-box img {
-    width: 14px;
-    height: 14px;
+    width: 0.875rem;                 
+    height: 0.875rem;
 }
 
 .rating-box span {
-    font-size: 16px;
+    font-size: 1rem;                  
     font-weight: 700;
     color: #2b2b2b;
 }
 
 .review-count {
-    font-size: 14px;
+    font-size: 0.875rem;              
     color: #8c8c8c;
     font-weight: 500;
 }
 
 .title {
-    font-size: 14px;
+    font-size: 0.875rem;             
     font-weight: 600;
-    margin-top: 2px;
+    margin-top: 2px;                 
     color: #111;
 }
 
 .author {
-    font-size: 11px;
+    font-size: 0.6875rem;            
     color: #777;
-    margin-top: 6px;
+    margin-top: 0.375rem;           
 }
 
 .price {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 6px;
-    font-size: 12px;
+    margin-top: 0.375rem;            
+    font-size: 0.75rem;               
 }
 
 .price .old {
@@ -127,27 +127,27 @@
 }
 
 .add-cart {
-    margin-top: 10px;
+    margin-top: 0.625rem;             
     width: 100%;
-    height: 38px;
+    height: 2.375rem;                 
     border-radius: 999px;
     border: none;
     background: #3f4b53;
     color: #fff;
-    font-size: 13px;
+    font-size: 0.8125rem;             
     font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 6px;
+    gap: 0.375em;                     
     cursor: pointer;
     transition: all 0.25s ease;
 }
 
 .add-cart img {
-    width: 15px;
-    height: 15px;
-    margin-left: 4px;
+    width: 0.9375rem;                 
+    height: 0.9375rem;
+    margin-left: 0.25rem;             
     transition: all 0.3s ease;
 }
 
@@ -158,4 +158,76 @@
 
 .add-cart:active {
     transform: scale(0.96);
+}
+
+/* ===== TABLET ===== */
+@media (min-width: 48.0625em) and (max-width: 64em) {
+
+    .rating-box {
+        height: 1.75rem;              
+        padding: 0 0.6875em;          
+        gap: 0.3125em;                
+    }
+
+    .rating-box img {
+        width: 0.75rem;               
+        height: 0.75rem;
+    }
+
+    .rating-box span {
+        font-size: 0.875rem;         
+    }
+
+    .review-count {
+        font-size: 0.75rem;           
+    }
+
+    .title {
+        font-size: 0.8125rem;         
+    }
+
+    .author {
+        font-size: 0.625rem;         
+    }
+
+    .add-cart {
+        height: 2.125rem;            
+        font-size: 0.75rem;          
+    }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 48em) {  
+
+    .rating-box {
+        height: 1.5rem;              
+        padding: 0 0.625em;           
+        gap: 0.25em;                 
+    }
+
+    .rating-box img {
+        width: 0.625rem;              
+        height: 0.625rem;
+    }
+
+    .rating-box span {
+        font-size: 0.75rem;           
+    }
+
+    .review-count {
+        font-size: 0.625rem;          
+    }
+
+    .title {
+        font-size: 0.75rem;           
+    }
+
+    .author {
+        font-size: 0.5625rem;         
+    }
+
+    .add-cart {
+        height: 1.875rem;             
+        font-size: 0.6875rem;         
+    }
 }
