@@ -1,11 +1,11 @@
 /* ===== NEW ARRIVALS ===== */
 .new-arrivals {
   width: 100%;
-  padding: 60px 40px;
+  padding: 3.75rem 2.5rem;      
 }
 
 .new-arrivals-inner {
-  max-width: 1280px;
+  max-width: 80rem;             
   margin: 0 auto;
 }
 
@@ -13,31 +13,31 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;      
 }
 
 .na-header h2 {
-  font-size: 24px;
+  font-size: 1.5rem;            
   font-weight: 700;
   color: #111;
 }
 
 .na-nav {
   display: flex;
-  gap: 12px;
+  gap: 0.75rem;                 
 }
 
 .na-list {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 18px;
+  gap: 1.125rem;                
 }
 
 /* ===== TABLET ===== */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 48.0625em) and (max-width: 64em) {
 
   .new-arrivals {
-    padding: 40px 30px;
+    padding: 2.5rem 1.875rem;   
   }
 
   .new-arrivals-inner {
@@ -45,23 +45,23 @@
   }
 
   .na-header {
-    margin-bottom: 16px;
+    margin-bottom: 1rem;      
   }
 
   .na-header h2 {
-    font-size: 22px;
+    font-size: 1.375rem;        
   }
 
   .na-nav {
-    gap: 10px;
+    gap: 0.625rem;              
   }
 
   .na-list {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
-    gap: 14px;
-    padding-bottom: 8px;
+    gap: 0.875rem;              
+    padding-bottom: 0.5rem;     
     scrollbar-width: none;
   }
 
@@ -71,15 +71,15 @@
 
   .na-list .book-card {
     flex-shrink: 0;
-    width: 200px;
+    width: 12.5rem;             
   }
 }
 
 /* ===== MOBILE ===== */
-@media (max-width: 768px) {
+@media (max-width: 48em) {
 
   .new-arrivals {
-    padding: 30px 16px;
+    padding: 1.875rem 1rem;     
   }
 
   .new-arrivals-inner {
@@ -87,17 +87,17 @@
   }
 
   .na-header {
-    margin-bottom: 14px;
+    margin-bottom: 0.875rem;   
   }
 
   .na-header h2 {
-    font-size: 18px;
+    font-size: 1.125rem;        
     font-weight: 700;
     color: #111;
   }
 
   .na-nav {
-    gap: 8px;
+    gap: 0.5rem;               
   }
 
   .na-list {
@@ -106,8 +106,8 @@
     flex-wrap: nowrap;
     grid-template-columns: unset;
     overflow-x: auto;
-    gap: 12px;
-    padding-bottom: 8px;
+    gap: 0.75rem;              
+    padding-bottom: 0.5rem;   
     scrollbar-width: none;
   }
 
@@ -117,6 +117,6 @@
 
   .book-card {
     flex-shrink: 0;
-    width: 150px;
+    width: 9.375rem;           
   }
 }
