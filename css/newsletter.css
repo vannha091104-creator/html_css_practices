@@ -175,6 +175,8 @@
 
   .newsletter {
     padding: 1.875rem 1rem;          
+    display: flex;
+    justify-content: center;
   }
 
   .newsletter-box {
@@ -212,7 +214,6 @@
   .newsletter-form {
     height: 3.5rem;                  
     padding: 0.375rem;               
-    max-width: 100%;
   }
 
   .newsletter-input {
@@ -225,12 +226,13 @@
   }
 
   .newsletter-input input {
-    font-size: 0.875rem;             
+    font-size: 0.75rem;             
   }
 
-  .subscribe-btn {
-    min-width: 6.875rem;             
-    height: 2.75rem;                  
-    font-size: 0.9375rem;             
-  }
+.subscribe-btn {
+  min-width: 5.5rem;   
+  height: 2.5rem;
+  font-size: 0.875rem;
+  flex-shrink: 0;
+}
 }
