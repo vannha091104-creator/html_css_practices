@@ -161,6 +161,22 @@
     color: #d8f04b;
 }
 
+@media (max-width: 64em) {
+  .why-btn {
+    height: 3rem;
+    padding: 0 2.143em;
+    font-size: 0.875rem;
+  }
+
+  .why-right h2 {
+    white-space: normal;
+  }
+
+  .why-right p {
+    font-size: 0.875rem;
+  }
+}
+
 /* ===== TABLET ===== */
 @media (min-width: 48.0625em) and (max-width: 64em) {
 
@@ -174,7 +190,6 @@
   }
 
   .why-left {
-    width: 50%;
     min-height: 32.5rem;           
   }
 
@@ -188,24 +203,17 @@
     transform-origin: top left;
   }
 
-  .show-book {
-    width: 10rem;                     
-  }
-
   .why-right {
-    width: 50%;
     padding: 0 2.25rem;               
   }
 
   .why-right h2 {
     font-size: 2.25rem;               
-    white-space: normal;
     letter-spacing: -0.5px;           
     margin-bottom: 1rem;              
   }
 
   .why-right p {
-    font-size: 0.875rem;              
     line-height: 1.75;
     margin-bottom: 1.625rem;          
   }
@@ -252,9 +260,4 @@
     margin-bottom: 1.5rem;           
   }
 
-  .why-btn {
-    height: 3rem;                    
-    padding: 0 2.143em;               
-    font-size: 0.875rem;             
-  }
 }
