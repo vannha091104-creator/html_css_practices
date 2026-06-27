@@ -33,15 +33,29 @@
   gap: 1.125rem;                
 }
 
+@media (max-width: 64em) {
+  .new-arrivals-inner {
+    max-width: 100%;
+  }
+
+  .na-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    scrollbar-width: none;
+  }
+
+  .na-list::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 /* ===== TABLET ===== */
 @media (min-width: 48.0625em) and (max-width: 64em) {
 
   .new-arrivals {
     padding: 2.5rem 1.875rem;   
-  }
-
-  .new-arrivals-inner {
-    max-width: 100%;
   }
 
   .na-header {
@@ -57,16 +71,7 @@
   }
 
   .na-list {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
     gap: 0.875rem;              
-    padding-bottom: 0.5rem;     
-    scrollbar-width: none;
-  }
-
-  .na-list::-webkit-scrollbar {
-    display: none;
   }
 
   .na-list .book-card {
@@ -82,18 +87,12 @@
     padding: 1.875rem 1rem;     
   }
 
-  .new-arrivals-inner {
-    max-width: 100%;
-  }
-
   .na-header {
     margin-bottom: 0.875rem;   
   }
 
   .na-header h2 {
     font-size: 1.125rem;        
-    font-weight: 700;
-    color: #111;
   }
 
   .na-nav {
@@ -101,18 +100,7 @@
   }
 
   .na-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    grid-template-columns: unset;
-    overflow-x: auto;
     gap: 0.75rem;              
-    padding-bottom: 0.5rem;   
-    scrollbar-width: none;
-  }
-
-  .na-list::-webkit-scrollbar {
-    display: none;
   }
 
   .book-card {
