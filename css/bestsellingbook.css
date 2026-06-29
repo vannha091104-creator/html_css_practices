@@ -132,12 +132,11 @@
 }
 
 /* ===== TABLET ===== */
-@media (min-width: 48.0625em) and (max-width: 64em) {
+@media (max-width: 64em) {
 
   .best-selling {
     padding: 2.5rem 1.5rem;           
     box-sizing: border-box;
-    width: 100%;
     overflow: hidden;
   }
 
@@ -191,14 +190,14 @@
   .bs-right {
     flex: 1;
     min-width: 0;
-    display: flex;
     flex-direction: row;
+    gap: 0.875rem;           
+    display: flex;
     flex-wrap: nowrap;
-    grid-template-columns: unset;
+    grid-template-columns: unset; 
     overflow-x: auto;
-    gap: 0.875rem;                    
-    padding-bottom: 0.5rem;           
-    scrollbar-width: none;
+    padding-bottom: 0.5rem;
+    scrollbar-width: none;         
   }
 
   .bs-right::-webkit-scrollbar {
@@ -245,23 +244,11 @@
 
   .bs-right {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    grid-template-columns: unset;
-    overflow-x: auto;
     gap: 0.75rem;                   
-    padding-bottom: 0.5rem;           
-    scrollbar-width: none;
     justify-content: safe center;
   }
 
-  .bs-right::-webkit-scrollbar {
-    display: none;
-  }
-
   .bs-right .book-card {
-    flex-shrink: 0;
     width: 10rem;                    
   }
 }

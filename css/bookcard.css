@@ -159,7 +159,7 @@
 }
 
 /* ===== TABLET ===== */
-@media (min-width: 48.0625em) and (max-width: 64em) {
+@media (max-width: 64em) {
 
     .rating-box {
         height: 1.75rem;              
