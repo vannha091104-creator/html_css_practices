@@ -402,7 +402,14 @@
   display: none;
 }
 
+/* ===== TABLET ===== */
 @media (max-width: 64em) {
+
+  .top-banner,
+  .nav {
+    display: none;
+  }
+
   .header {
     flex-wrap: wrap;
     padding: 0.875rem 1rem;
@@ -415,6 +422,21 @@
   .actions {
     gap: 0.125rem;
     align-items: center;
+    flex-shrink: 0;
+  }
+
+  .signin {
+    display: flex;
+    height: 2.25rem;
+    font-size: 0.8125rem;
+    padding: 0 1.08em;
+    gap: 0.46em;
+    white-space: nowrap;
+  }
+
+  .signin svg {
+    width: 1.15em;
+    height: 1.38em;
   }
 
   .icon-btn {
@@ -489,29 +511,6 @@
     gap: 0.53em;
     cursor: pointer;
   }
-}
-
-/* ===== TABLET ===== */
-@media (min-width: 48.0625em) and (max-width: 64em) {
-
-  .top-banner,
-  .nav {
-    display: none;
-  }
-
-  .signin {
-    display: flex;
-    height: 2.25rem;
-    font-size: 0.8125rem;
-    padding: 0 1.08em;
-    gap: 0.46em;
-    white-space: nowrap;
-  }
-
-  .signin svg {
-    width: 1.15em;
-    height: 1.38em;
-  }
 
   .hero-container {
     gap: 3.75rem;
@@ -566,8 +565,6 @@
     min-width: 320px;
   }
 
-  .top-banner,
-  .nav,
   .signin {
     display: none;
   }
