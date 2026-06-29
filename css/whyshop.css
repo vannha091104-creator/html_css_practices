@@ -161,24 +161,8 @@
     color: #d8f04b;
 }
 
-@media (max-width: 64em) {
-  .why-btn {
-    height: 3rem;
-    padding: 0 2.143em;
-    font-size: 0.875rem;
-  }
-
-  .why-right h2 {
-    white-space: normal;
-  }
-
-  .why-right p {
-    font-size: 0.875rem;
-  }
-}
-
 /* ===== TABLET ===== */
-@media (min-width: 48.0625em) and (max-width: 64em) {
+@media (max-width: 64em) {
 
   .why-shop {
     margin-top: 3.125rem;           
@@ -210,12 +194,14 @@
   .why-right h2 {
     font-size: 2.25rem;               
     letter-spacing: -0.5px;           
-    margin-bottom: 1rem;              
+    margin-bottom: 1rem;     
+    white-space: normal;         
   }
 
   .why-right p {
     line-height: 1.75;
-    margin-bottom: 1.625rem;          
+    margin-bottom: 1.625rem;    
+    font-size: 0.875rem;      
   }
 
   .why-btn {
@@ -249,13 +235,11 @@
 
   .why-right h2 {
     font-size: 1.75rem;               
-    white-space: normal;
     margin-bottom: 1rem;              
     letter-spacing: 0;
   }
 
   .why-right p {
-    font-size: 0.875rem;              
     line-height: 1.7;
     margin-bottom: 1.5rem;           
   }
