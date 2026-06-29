@@ -150,104 +150,8 @@
     margin-top: 0.75rem;              
 }
 
-@media (max-width: 64em) {
-  .deal-list {
-    display: flex;
-    flex-wrap: nowrap;
-    grid-template-columns: unset;
-    overflow-x: auto;
-    scrollbar-width: none;
-  }
-
-  .deal-list::-webkit-scrollbar {
-    display: none;
-  }
-
-  .deal-card {
-    flex-shrink: 0;
-    min-height: unset;
-    align-items: stretch;
-  }
-
-  .deal-img {
-    flex-shrink: 0;
-    border-radius: 14px;
-  }
-
-  .deal-info {
-    flex: 1;
-    justify-content: space-between;
-  }
-
-  .deal-info .review {
-    display: flex;
-    align-items: center;
-  }
-
-  .deal-info .rating-box {
-    display: flex;
-    align-items: center;
-  }
-
-  .deal-info .review-count {
-    color: #888;
-  }
-
-  .deal-card .add-cart {
-    width: 100%;
-  }
-}
-
-@media (max-width: 64em) {
-  .deal-list {
-    display: flex;
-    flex-wrap: nowrap;
-    grid-template-columns: unset;
-    overflow-x: auto;
-    scrollbar-width: none;
-  }
-
-  .deal-list::-webkit-scrollbar {
-    display: none;
-  }
-
-  .deal-card {
-    flex-shrink: 0;
-    min-height: unset;
-    align-items: stretch;
-  }
-
-  .deal-img {
-    flex-shrink: 0;
-    border-radius: 14px;
-  }
-
-  .deal-info {
-    flex: 1;
-    justify-content: space-between;
-  }
-
-  .deal-info .review {
-    display: flex;
-    align-items: center;
-  }
-
-  .deal-info .rating-box {
-    display: flex;
-    align-items: center;
-  }
-
-  .deal-info .review-count {
-    color: #888;
-  }
-
-  .deal-card .add-cart {
-    width: 100%;
-  }
-}
-
 /* ===== TABLET ===== */
-@media (min-width: 48.0625em) and (max-width: 64em) {
+@media (max-width: 64em) {
   .deal-day {
     padding: 2.5rem 1.5rem;
   }
@@ -264,16 +168,35 @@
     gap: 1.25rem;
     margin-top: 1.25rem;
     padding-bottom: 0.625rem;
+    display: flex;
+    flex-wrap: nowrap;
+    grid-template-columns: unset;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .deal-list::-webkit-scrollbar {
+    display: none;
   }
 
   .deal-card {
     width: 18.75rem;
     padding: 1.125em;
     gap: 1.125rem;
+    flex-shrink: 0;
+    min-height: unset;
+    align-items: stretch;
   }
 
   .deal-img {
     width: 6.875rem;
+    flex-shrink: 0;
+    border-radius: 14px;
+  }
+
+  .deal-info {
+    flex: 1;
+    justify-content: space-between;
   }
 
   .deal-info .author {
@@ -297,11 +220,15 @@
   .deal-info .review {
     gap: 0.3125rem;
     margin: 3px 0;
+    display: flex;
+    align-items: center;
   }
 
   .deal-info .rating-box {
     gap: 0.25rem;
     padding: 0.125em 0.4375em;
+    display: flex;
+    align-items: center;
   }
 
   .deal-info .rating-box img {
@@ -315,6 +242,7 @@
 
   .deal-info .review-count {
     font-size: 0.6875rem;
+    color: #888;
   }
 
   .sold {
@@ -325,6 +253,7 @@
     height: 2.375rem;
     font-size: 0.75rem;
     margin-top: 0.625rem;
+    width: 100%;
   }
 }
 
