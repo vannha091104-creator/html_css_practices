@@ -131,27 +131,8 @@
     gap: 1.25rem;                     
 }
 
-@media (max-width: 64em) {
-  .bs-right {
-    display: flex;
-    flex-wrap: nowrap;
-    grid-template-columns: unset; 
-    overflow-x: auto;
-    padding-bottom: 0.5rem;
-    scrollbar-width: none;
-  }
-
-  .bs-right::-webkit-scrollbar {
-    display: none;
-  }
-
-  .bs-right .book-card {
-    flex-shrink: 0;
-  }
-}
-
 /* ===== TABLET ===== */
-@media (min-width: 48.0625em) and (max-width: 64em) {
+@media (max-width: 64em) {
 
   .best-selling {
     padding: 2.5rem 1.5rem;           
@@ -210,7 +191,17 @@
     flex: 1;
     min-width: 0;
     flex-direction: row;
-    gap: 0.875rem;                    
+    gap: 0.875rem;           
+    display: flex;
+    flex-wrap: nowrap;
+    grid-template-columns: unset; 
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    scrollbar-width: none;         
+  }
+
+  .bs-right::-webkit-scrollbar {
+    display: none;
   }
 
   .bs-right .book-card {
@@ -253,13 +244,11 @@
 
   .bs-right {
     width: 100%;
-    flex-direction: row;
     gap: 0.75rem;                   
     justify-content: safe center;
   }
 
   .bs-right .book-card {
-    flex-shrink: 0;
     width: 10rem;                    
   }
 }
