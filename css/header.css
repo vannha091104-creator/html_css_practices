@@ -1,3 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* ===== TOP BANNER ===== */
 .top-banner {
   background: #3f4b53;
@@ -27,9 +41,11 @@
 /* ===== HEADER ===== */
 .header {
   width: 100%;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
-  padding: 0.75rem 2.5rem;
+  flex-wrap: nowrap;
+  padding: 0.75rem 1rem;
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -37,47 +53,45 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 0.625rem;
+  gap: 0.5rem;
   height: 2.5rem;
   flex-shrink: 0;
 }
 
 .logo img {
-  width: 2.0625rem;
+  width: 1.75rem;
   height: auto;
 }
 
 .logo span {
-  font-size: 2.0625rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #3f4b53;
   line-height: 1;
+  white-space: nowrap;
 }
 
 .nav {
   flex: 1;
   display: flex;
   justify-content: center;
+  flex-wrap: nowrap;
+  min-width: 0;
 }
 
 .nav a {
   text-decoration: none;
   color: #46515a;
-  font-size: 0.9375rem;
+  font-size: 0.8125rem;
   font-weight: 500;
   height: 2.5rem;
-  padding: 0 1.07em;
+  padding: 0 0.6em;
   display: flex;
   align-items: center;
   border-radius: 999px;
-  gap: 0.4em;
+  gap: 0.35em;
+  white-space: nowrap;
   transition: all 0.3s ease;
-}
-
-.nav .nav-item img {
-  width: 1em;
-  height: 1em;
-  margin-left: 0.4em;
 }
 
 .nav a:hover {
@@ -86,16 +100,22 @@
   transform: translateY(-2px);
 }
 
+.nav .nav-item img {
+  width: 0.85em;
+  height: 0.85em;
+  margin-left: 0.3em;
+}
+
 .actions {
   display: flex;
   align-items: center;
-  gap: 0.875rem;
+  gap: 0.5rem;
   flex-shrink: 0;
 }
 
 .icon-btn {
-  width: 3.25rem;
-  height: 3.25rem;
+  width: 2.25rem;
+  height: 2.25rem;
   border: none;
   border-radius: 50%;
   background: transparent;
@@ -103,32 +123,35 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  flex-shrink: 0;
 }
 
 .icon-btn img {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
   object-fit: contain;
 }
 
 .signin {
-  height: 2.5rem;
-  padding: 0 1.25em;
+  height: 2.25rem;
+  padding: 0 0.9em;
   border: 1px solid #cce950;
   border-radius: 999px;
   background: #d9ff57;
   color: #2e3338;
-  font-size: 1rem;
+  font-size: 0.8125rem;
   font-weight: 600;
   display: flex;
   align-items: center;
-  gap: 0.5em;
+  gap: 0.4em;
+  white-space: nowrap;
   cursor: pointer;
+  flex-shrink: 0;
 }
 
 .signin svg {
-  width: 1.375em;
-  height: 1.375em;
+  width: 1.2em;
+  height: 1.2em;
 }
 
 .icon-btn,
@@ -157,29 +180,34 @@
 /* ===== HERO ===== */
 .hero {
   max-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
   margin: 0 auto;
-  padding: 1.875rem 0.625rem 0;
+  padding: 1.875rem 1.25rem 0;
 }
 
 .hero-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  gap: 7.5rem;
+  justify-content: center;
+  gap: 3rem;
   margin-top: -3.125rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .hero-left {
   position: relative;
-  width: 45%;
+  flex: 0 0 31rem;
   min-height: 35rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-end;
+  overflow: visible;
 }
 
 .hero-left .girl {
-  width: 23.75rem;
+  width: 24rem;
   max-width: 100%;
   position: relative;
   z-index: 2;
@@ -187,23 +215,25 @@
 
 .hero-left .clivebook {
   position: absolute;
-  width: 13.75rem;
+  width: 12.5rem;
   top: 9.375rem;
-  left: 80%;
-  transform: translateX(-30%);
+  left: 17rem;
+  right: auto;
+  transform: none;
   z-index: 3;
   border-radius: 0.5rem;
   box-shadow: 0 20px 45px rgba(0, 0, 0, 0.18);
 }
 
 .hero-right {
-  width: 45%;
+  flex: 0 0 28rem;
+  min-width: 0;
   padding-top: 1.25rem;
 }
 
 .hero-right h1 {
-  font-size: 5.625rem;
-  line-height: 0.95;
+  font-size: 3.5rem;
+  line-height: 1.05;
   font-weight: 800;
   color: #111;
   margin-bottom: 1.125rem;
@@ -271,6 +301,9 @@
 
 /* ===== SEARCH SECTION ===== */
 .search-section {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 1.5rem;
   display: flex;
   justify-content: center;
   margin-top: -0.9375rem;
@@ -281,9 +314,10 @@
 .search-container {
   width: 100%;
   max-width: 1200px;
+  box-sizing: border-box;
   background: #f4f4ef;
   border-radius: 2.5rem;
-  padding: 2.5rem 3.125rem;
+  padding: 2rem 2.5rem;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
 }
 
