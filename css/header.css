@@ -2,7 +2,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
   width: 100%;
 }
@@ -552,6 +553,7 @@ img {
   }
 
   .hero-left {
+    flex: 0 0 22rem;
     min-height: 26.25rem;
   }
 
@@ -562,6 +564,12 @@ img {
   .hero-left .clivebook {
     width: 9.375rem;
     top: 6.25rem;
+    left: 13rem;
+  }
+
+  .hero-right {
+    flex: 1 1 auto;
+    min-width: 0;
   }
 
   .hero-right h1 {
@@ -618,6 +626,7 @@ img {
   }
 
   .hero-right {
+    flex: none;
     order: 1;
     width: 100%;
     padding: 1.5rem 0 1.25rem;
@@ -642,6 +651,7 @@ img {
   }
 
   .hero-left {
+    flex: none;
     order: 2;
     width: 100%;
     min-height: 20rem;
