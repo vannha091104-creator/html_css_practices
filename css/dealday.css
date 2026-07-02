@@ -37,7 +37,7 @@
 .deal-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;                      
+    gap: 1.25rem;                      
     margin-top: 1.5625rem;         
 }
 
@@ -46,8 +46,8 @@
     min-height: 16.875rem;           
     display: flex;
     align-items: center;
-    gap: 1.75rem;                     
-    padding: 1.5em;                   
+    gap: 1.25rem;                     
+    padding: 1.25em;                   
     border-radius: 24px;              
     background: #f5f5f2;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.03);
@@ -61,7 +61,7 @@
 }
 
 .deal-img {
-    width: 8.125rem;                                
+    width: 7.5rem;                                
     flex-shrink: 0;
     position: relative;
     border-radius: 14px;             
